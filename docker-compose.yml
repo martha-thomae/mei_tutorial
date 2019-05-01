@@ -6,4 +6,5 @@ services:
       dockerfile: Dockerfile
     volumes:
       - "./drafts:/opt/drafts"
+    image: ddmal/pymei:latest
     command: bash -c "tail -f /dev/null"
