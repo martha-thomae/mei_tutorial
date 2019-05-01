@@ -3,6 +3,7 @@ FROM debian:latest
 RUN set -e \
     && apt-get update \
     && apt-get install -yqq \
+      ipython \
       libboost-python-dev \
       libboost-thread-dev \
       libjpeg-dev \
