@@ -15,9 +15,15 @@ Tutorial on the basics of MEI
   ```
 ## Instructions
 - The path to the template file is: `/opt/drafts/MEI_CMN-general-structure.mei`
-- Edit this file using pymei and save the result as `output_with_pymei.mei`
+- Edit this file using pymei and save the result as `/opt/drafts/output_with_pymei.mei`
 - Check the result in [Verovio's MEI Viewer](https://www.verovio.org/mei-viewer.xhtml)
 - Push the resulting MEI file into your own branch
 
 ## PyMEI Documentation
+The `doc` and `element` are just variables used here for reference. 
+
+`doc` refers to an `MeiDocument` object.
+
+`element` and `element2` refer to `MeiElement` objects.
+
 ![alt text](https://github.com/martha-thomae/mei_tutorial/blob/master/drafts/pymei_documentation.png)
