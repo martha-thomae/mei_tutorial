@@ -16,3 +16,6 @@ When it finishes, open a new terminal (go into your mei_tutorial local copy agai
 - Edit this file using pymei and save the result as `output_<last_name>.mei`
 - Check the result in [Verovio's MEI Viewer](https://www.verovio.org/mei-viewer.xhtml)
 - Push the resulting MEI file
+
+## PyMEI Documentation
+![alt text](https://github.com/martha-thomae/mei_tutorial/blob/master/drafts/pymei_documentation.png)
