@@ -2,10 +2,12 @@
 Tutorial on the basics of MEI
 
 ## Installation
-After cloning the repo, go into your mei_tutorial local copy and run:
+1. Clone the repository 
+2. Create your own branch (in which you will push your output files)
+3. Go into your mei_tutorial local copy and run:
 - `docker-compose up`
 
-When it finishes, open a new terminal (go into your mei_tutorial local copy again) and run:
+4. When it finishes (you will see something similar to `Starting mei_tutorial_pymei_1 ... done`), open a new terminal (go into your mei_tutorial local copy again) and run:
 - `docker-compose exec pymei bash`
   - `$> ipython`
   ```python
@@ -13,9 +15,9 @@ When it finishes, open a new terminal (go into your mei_tutorial local copy agai
   ```
 ## Instructions
 - The path to the template file is: `/opt/drafts/MEI_CMN-general-structure.mei`
-- Edit this file using pymei and save the result as `output_<last_name>.mei`
+- Edit this file using pymei and save the result as `output_with_pymei.mei`
 - Check the result in [Verovio's MEI Viewer](https://www.verovio.org/mei-viewer.xhtml)
-- Push the resulting MEI file
+- Push the resulting MEI file into your own branch
 
 ## PyMEI Documentation
 ![alt text](https://github.com/martha-thomae/mei_tutorial/blob/master/drafts/pymei_documentation.png)
